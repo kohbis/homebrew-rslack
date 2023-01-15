@@ -3,5 +3,5 @@
 Settings for getting [rslack](https://github.com/kohbis/rslack) with Homebrew.
 
 ```
-brew install rslack
+brew install kohbis/rslack/rslack
 ```
