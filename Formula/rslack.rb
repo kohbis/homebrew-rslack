@@ -7,12 +7,12 @@ class Rslack < Formula
 
   on_macos do
     url "https://github.com/kohbis/rslack/releases/download/#{version}/rslack-macos.tar.gz"
-    sha256 "4cdf005cfcbe43dfac16389aee4aa3a607e581e17fadfe3f4aaf24987a7add3b"
+    sha256 "b1c791b8f17dd342718dfe2b3c40d7714e1be8cb04508a3b68372f30dafcff82"
   end
 
   on_linux do
     url "https://github.com/kohbis/rslack/releases/download/#{version}/rslack-linux.tar.gz"
-    sha256 "9c61523194411bb99d6f5a60d7944d9fe3de0b8e76ca13e8a93001e01325364f"
+    sha256 "e355e5ade75b85beeec7d8de92ed5d5a59d207240c667b80af3e278bb3647893"
   end
 
   def install
