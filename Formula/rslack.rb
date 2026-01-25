@@ -3,16 +3,16 @@
 class Rslack < Formula
   desc "TUI for slack message"
   homepage "https://github.com/kohbis/rslack"
-  version "v0.5.4"
+  version "v0.5.5"
 
   on_macos do
     url "https://github.com/kohbis/rslack/releases/download/#{version}/rslack-macos.tar.gz"
-    sha256 "8a442097f7f0b118f60ef1c3f8ce0e4679720666c4b27ebb0f653ec95cd6799c" # macos
+    sha256 "cb68e09f9d6487d409cb8c2f38ecb237a694dd254c0c0cae297b8b4f160cd2bb" # macos
   end
 
   on_linux do
     url "https://github.com/kohbis/rslack/releases/download/#{version}/rslack-linux.tar.gz"
-    sha256 "ac05a0a480d6db45a59d57676e2c72d8f24e69c733f8c8a6b139f2121dd5e08b" # linux
+    sha256 "e21022a90e269242c3ff9840924d00cce9fb49535a49c2f8f9394566a3a5906f" # linux
   end
 
   def install
